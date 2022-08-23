@@ -149,7 +149,7 @@
 }
 .donate-group {
     width: 300px;
-    min-height: 400;
+    height: 400;
     padding: 3%;
     border-radius: 5px;
 }
@@ -178,6 +178,31 @@
 }
 
 /* --Ending donate section */
+
+
+/* --Starting donate method system */
+.donate-method{
+    text-align: center;
+    margin: 70px 0;
+}
+.donate-method h1{
+    font-size: 45px;
+    color: #000;
+
+}
+.donate-method p{
+    width: 50%;
+    margin: auto;
+}
+.donate-method-system{
+    background: url(../images/payment1.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+
+/* --Ending donate method system */
 
 /* --Starting update section */
 
