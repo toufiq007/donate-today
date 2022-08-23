@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 16px 22px;
+    background: #ff5959;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+/* ---Starting Banner Section */
+
+.banner-section {
+    background: url(../images/donation9.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1;
+}
+.background-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+.banner-text {
+    width: 765px;
+    height: 360px;
+    padding: 2%;
+    text-align: center;
+    z-index: 3;
+}
+.banner-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin: 35px 50px;
+}
+
+/* ---Ending Banner Section */
+
